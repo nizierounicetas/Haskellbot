@@ -1,8 +1,9 @@
+
 name:                HaskellBot
 version:             0.1.0.0
 github:              "nizierounicetas/HaskellBot"
 license:             BSD-3-Clause
-author:              "Nikit aVenediktov"
+author:              "Nikita Venediktov"
 maintainer:          "nikben2105@gmail.com"
 copyright:           "2024 Nikita Venediktov"
 
@@ -21,6 +22,10 @@ description:         Please see the README on GitHub at <https://github.com/gith
 
 dependencies:
 - base >= 4.7 && < 5
+- telegram-bot-simple
+- telegram-bot-api
+- text
+
 
 ghc-options:
 - -Wall

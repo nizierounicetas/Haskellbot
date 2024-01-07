@@ -1,6 +1,11 @@
-module Main (main) where
 
-import Lib
+{-# LANGUAGE OverloadedStrings     #-}
+
+module Main where
+
+import           Bot                         (botStartup)
 
 main :: IO ()
-main = someFunc
+main = do
+    putStrLn "Starting bot..."
+    botStartup

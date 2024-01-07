@@ -3,11 +3,31 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages: []
+packages:
+- completed:
+    hackage: telegram-bot-simple-0.12@sha256:6e0d268458ead1a1da8d651fca1f74a7d640d57e6506496491cdc35d43003528,5585
+    pantry-tree:
+      sha256: 911d010c44f1ce42d5b1ac7acf66ca04482b3e1a1a519e6c54ee4c2e9e827513
+      size: 1374
+  original:
+    hackage: telegram-bot-simple-0.12@sha256:6e0d268458ead1a1da8d651fca1f74a7d640d57e6506496491cdc35d43003528,5585
+- completed:
+    hackage: servant-multipart-client-0.12.2@sha256:04ee32201c9aebd0ad68e3aa67323a0132c70b92868b12ddd2070c69fcaba1ec,2276
+    pantry-tree:
+      sha256: d0688e3d2ba41b95d67ae865e321972b1b313391f1c6cd574a166de8467e7da0
+      size: 400
+  original:
+    hackage: servant-multipart-client-0.12.2
+- completed:
+    hackage: telegram-bot-api-6.7.1@sha256:33a7c24c8c29057167ff02abb20e62987a69db690e0ee019a6499a2144225311,9384
+    pantry-tree:
+      sha256: 23c3a436b57725093d284d2e035545e00888337908805f0b91f2be7317a7c5b2
+      size: 15189
+  original:
+    hackage: telegram-bot-api-6.7.1
 snapshots:
 - completed:
-    sha256: 8b211c5a6aad3787e023dfddaf7de7868968e4f240ecedf14ad1c5b2199046ca
-    size: 714097
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/22/4.yaml
-  original:
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/22/4.yaml
+    sha256: 88b4f81e162ba3adc230a9fcccc4d19ac116377656bab56c7382ca88598b257a
+    size: 587546
+    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/18/10.yaml
+  original: lts-18.10
